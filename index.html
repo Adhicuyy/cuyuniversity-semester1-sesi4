@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sesi 4 CuyUniversity</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="ruangan">
+            <div class="room-name">
+                <h1>RUANGAN KELUARGA</h1>
+            </div>
+            <div class="lamp">
+                <div class="lampu">
+                    <img id="lampu1" src="assets/off.gif" alt="...">
+                    <input id="switch1" onchange="saklar(1, false)" type="checkbox">
+                </div>
+                <div class="lampu">
+                    <img id="lampu2" src="assets/off.gif" alt="...">
+                    <input id="switch2" onchange="saklar(2, false)" type="checkbox">
+                </div>
+                <div class="lampu">
+                    <img id="lampu3" src="assets/off.gif" alt="...">
+                    <input id="switch3" onchange="saklar(3, false)" type="checkbox">
+                </div>
+            </div>
+            <input id="switchGroup1" onchange="saklarGroup(1)" type="checkbox">
+        </div>
+        <div class="ruangan">
+            <div class="room-name">
+                <h1>RUANGAN MAKAN</h1>
+            </div>
+            <div class="lamp">
+                <div class="lampu">
+                    <img id="lampu4" src="assets/off.gif" alt="...">
+                    <input id="switch4" onchange="saklar(4, false)" type="checkbox">
+                </div>
+            </div>
+            <input id="switchGroup2" onchange="saklarGroup(2)" type="checkbox">
+        </div>
+        <div class="ruangan">
+            <div class="room-name">
+                <h1>RUANGAN TIDUR</h1>
+            </div>
+            <div class="lamp">
+                <div class="lampu">
+                    <img id="lampu5" src="assets/off.gif" alt="...">
+                    <input id="switch5" onchange="saklar(5, false)" type="checkbox">
+                </div>
+                <div class="lampu">
+                    <img id="lampu6" src="assets/off.gif" alt="...">
+                    <input id="switch6" onchange="saklar(6, false)" type="checkbox">
+                </div>
+            </div>
+            <input id="switchGroup3" onchange="saklarGroup(3)" type="checkbox">
+        </div>
+        <div class="ruangan">
+            <div class="room-name">
+                <h1>RUANGAN TAMU</h1>
+            </div>
+            <div class="lamp">
+                <div class="lampu">
+                    <img id="lampu7" src="assets/off.gif" alt="...">
+                    <input id="switch7" onchange="saklar(7, false)" type="checkbox">
+                </div>
+                <div class="lampu">
+                    <img id="lampu8" src="assets/off.gif" alt="...">
+                    <input id="switch8" onchange="saklar(8, false)" type="checkbox">
+                </div>
+                <div class="lampu">
+                    <img id="lampu9" src="assets/off.gif" alt="...">
+                    <input id="switch9" onchange="saklar(9, false)" type="checkbox">
+                </div>
+                <div class="lampu">
+                    <img id="lampu10" src="assets/off.gif" alt="...">
+                    <input id="switch10" onchange="saklar(10, false)" type="checkbox">
+                </div>
+            </div>
+            <input id="switchGroup4" onchange="saklarGroup(4)" type="checkbox">
+        </div>
+    </div>  
+
+    <script src="script.js"></script>
+</body>
+</html>
